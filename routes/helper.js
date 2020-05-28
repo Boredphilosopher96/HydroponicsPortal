@@ -11,7 +11,7 @@ helper.get("/", (req, res, error) => {
     axios
     .get("http://dataservice.accuweather.com/currentconditions/v1/188753", {
         params: {
-            apikey : 'oGaDBZoMZl8qw4nK3uu0TCSp3jwib79v'
+            apikey : '*******'
         }
     })
     .then( res => {
